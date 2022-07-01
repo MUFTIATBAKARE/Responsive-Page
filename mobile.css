@@ -4,19 +4,16 @@
 }
 body {
     background-color: hwb(0 48% 0%);
+    background-image: url(mobile_image.png);
     margin: 0;
     padding: 0;
     font-family: 'Poppins';
 }
-@media only screen and(max-device-width: 400px) {
-    body {
-        background-image: url("bg-intro-mobile\ \(1\).png");
-    }
-  }
 main {
     width: 70%;
     margin: auto;
-    display: flex;
+    display: table;
+    clear: both;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -48,19 +45,19 @@ td {
 .right_content {
     padding: 2em;
     color: white;
-    flex: 35%;
+    flex: 30%;
     flex-wrap: wrap;
 }
 .left_content {
     padding: 2em;
-    flex: 65%;
+    flex: 80%;
 
 }
 .boat {
     background-color: white;
-    width: 70%;
+    width: auto;
     height: 350px;
-    padding: 5px 0 10px 10px;
+    padding: 5px 0px 10px 10px;
     border-radius: 10px;
 
 }
